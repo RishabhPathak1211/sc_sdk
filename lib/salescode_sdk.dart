@@ -1,7 +1,7 @@
 library salescode_sdk;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'service_registry.dart';
+export 'service.dart';
+export 'bootstrap.dart';
+export 'environment.dart';
+export 'repository_factory.dart';
